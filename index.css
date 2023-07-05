@@ -1,12 +1,7 @@
-.header {
-    font-size: 36px;
-    padding: 12px 12px 12px 12px; /* T R B L */
-    display: flex;
-    justify-content: center;
-}
-
-hr.line {
-    border: 2px solid rgb(165, 165, 255);
-    border-radius: 2px;
-    width: 90%;
+h1 {
+    color: #007AC0;
+    font-family: Impact, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    opacity: 1.0;
 }
