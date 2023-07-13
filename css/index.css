@@ -5,3 +5,7 @@ h1 {
     text-align: center;
     opacity: 1.0;
 }
+
+body {
+    font-family: "Poppins", sans-serif;
+}

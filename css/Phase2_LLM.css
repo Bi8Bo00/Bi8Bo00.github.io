@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    font-size: 16px;
+    line-height: 150%;
+}
+  
+section {
+    color: #fff;
+    text-align: left;
+}
+  
+div {
+    height: 100%;
+}
+  
+h3 {
+    font-size: 1.25rem;
+    margin: 0 0 0.75rem 0;
+    padding: 2px;
+}
+
+p {
+    padding: 2px;
+}
+  
+/* Pattern styles */
+.boxes {
+    display: table;
+    width: 100%;
+}
+
+.left-top, .left-bottom, .right-top, .right-bottom {
+    position: fixed;
+    overflow: auto;
+}
+  
+.left-top {
+    background-color: #007AC0;
+    opacity: 0.60;
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    width: 48%;
+    height: 39%;
+}
+
+.left-bottom {
+    background-color: #007AC0;
+    opacity: 0.75;
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    width: 48%;
+    height: 39%;
+}
+  
+.right-top {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    width: 48%;
+    height: 65%;
+}
+
+.right-bottom-r {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 24%;
+    height: 13%;
+}
+
+.right-bottom-l {
+    position: absolute;
+    bottom: 2%;
+    right: 26%;
+    width: 24%;
+    height: 13%;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0e101a;
+}
+
+.right-bottom-l p {
+    text-align: center;
+    color: #007AC0;
+    font-size: 14px;
+}
+.right-bottom-r p {
+    text-align: center;
+    color: #007AC0;
+    font-size: 14px;
+}

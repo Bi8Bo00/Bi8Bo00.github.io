@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Task</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/Revision.css" />
+  </head>
+
+  <body>
+    <p style="padding: 10px;">
+        Now you can click the chat widget icon in the bottom-right corner of this page that looks like this: 
+        <img src="images/Messenger_Icon.png" width="25" height="25">, 
+        <br>
+        interact with Chatbot, and get the article revised by Chatbot:
+    </p>
+    <section class="boxes">
+      <div class="left-half">
+        <article>
+          <h3>Previous Article:</h3>
+          <p>Article generated previously.</p>
+          <p id="previous_article"></p>
+        </article>
+      </div>
+
+      <div class="right-half">
+        <article>
+          <h3>Revison:</h3>
+          <p>Article improved by Chatbot.</p>
+          <p>...</p>
+        </article>
+      </div>
+    </section>
+    <button onclick="window.location.href = 'Phase2_LLM.html';"> → </button>
+    
+    <!-- Script -->
+    <script>
+      var previousArticle = localStorage.getItem("phase1_article");
+      document.getElementById("previous_article").innerText = previousArticle;
+    </script>
+  </body>
+
+</html>
